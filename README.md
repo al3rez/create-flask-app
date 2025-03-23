@@ -28,8 +28,14 @@ This is a powerful Flask API boilerplate that helps you deploy Flask application
 - No per-request pricing or cold starts
 
 ## Usage
-1. Apply to main.py
-2. Run
+
+```
+pip install create-flask-vps-app
+create-flask-vps-app myapp
+cd myapp
+fab setup
+fab deploy
+```
 
 ## When to Use
 This boilerplate is particularly useful when you want to:
